@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000033; /* Navy black background color */
+    color: #5e3f3f;; /* Change text color to white for better contrast */
+    background-image: url('code.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ccc;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.classification {
+    margin-bottom: 40px;
+}
+
+.classification ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.classification li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.classification li:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(10deg);
+    border-color: #999;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-image: url('path/to/programming_languages_text_image.jpg'); /* Background image for nav */
+    background-size: cover;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #444;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.skip-link:focus {
+    position: static;
+    margin: 10px;
+    background-color: #ffc;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+ul li:nth-child(even) img {
+    border-radius: 50%;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
