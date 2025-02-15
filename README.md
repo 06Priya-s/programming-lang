@@ -1,6 +1,6 @@
 # programming-lang
 
-This is a seimple webiste wihch contains the classification of proagramming languages into the following categories:
+This is a simple webiste wihch contains the classification of proagramming languages into the following categories:
 <ol>
   <li>Complied Programing Languages</li>
   <li>Interpreted Programming Languages</li>
